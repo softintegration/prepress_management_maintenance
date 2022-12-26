@@ -1,0 +1,26 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* prepress_management_maintenance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-26 20:32+0000\n"
+"PO-Revision-Date: 2022-12-26 20:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: prepress_management_maintenance
+#: model:ir.model,name:prepress_management_maintenance.model_prepress_cutting_die
+msgid "Cutting Die"
+msgstr "Forme de découpe"
+
+#. module: prepress_management_maintenance
+#: model:ir.model.fields,field_description:prepress_management_maintenance.field_prepress_cutting_die__equipment_ids
+msgid "Equipments"
+msgstr "Équipements"
