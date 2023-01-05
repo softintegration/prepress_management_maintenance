@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <record id="view_prepress_plate_form_inherited" model="ir.ui.view">
+            <field name="name">view.prepress.plate.form.inherited</field>
+            <field name="model">prepress.plate</field>
+            <field name="inherit_id" ref="prepress_management.view_prepress_plate_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='exposure_nbr']" position="after">
+                    <field name="equipment_ids" widget="many2many_tags" options="{'no_create_edit': True}"
+                    attrs="{'invisible':[('product_plate_type','!=','plate_ctp')]}"/>
+                </xpath>
+            </field>
+        </record>
+
+</odoo>

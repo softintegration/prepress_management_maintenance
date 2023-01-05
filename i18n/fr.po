@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-26 20:32+0000\n"
-"PO-Revision-Date: 2022-12-26 20:32+0000\n"
+"POT-Creation-Date: 2023-01-05 11:16+0000\n"
+"PO-Revision-Date: 2023-01-05 11:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,5 +22,11 @@ msgstr "Forme de découpe"
 
 #. module: prepress_management_maintenance
 #: model:ir.model.fields,field_description:prepress_management_maintenance.field_prepress_cutting_die__equipment_ids
+#: model:ir.model.fields,field_description:prepress_management_maintenance.field_prepress_plate__equipment_ids
 msgid "Equipments"
 msgstr "Équipements"
+
+#. module: prepress_management_maintenance
+#: model:ir.model,name:prepress_management_maintenance.model_prepress_plate
+msgid "Plate"
+msgstr "Plaque"

@@ -10,12 +10,13 @@
     'qweb': [],
     'description': False,
     'images': [],
-    'version': '1.0.1.1',
+    'version': '1.0.1.2',
     'category': 'Prepress/Maintenance',
     'demo': [],
     'depends': ['prepress_management','maintenance'],
     'data': [
-        'views/prepress_cutting_die_views.xml'
+        'views/prepress_cutting_die_views.xml',
+        'views/prepress_plate_views.xml'
     ],
     'license': 'LGPL-3',
 }
