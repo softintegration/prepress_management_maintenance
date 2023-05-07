@@ -13,4 +13,15 @@
             </field>
         </record>
 
+        <record id="view_prepress_plate_ctp_tree_inherited" model="ir.ui.view">
+            <field name="name">view.prepress.plate.ctp.tree.inherited</field>
+            <field name="model">prepress.plate</field>
+            <field name="inherit_id" ref="prepress_management.view_prepress_plate_ctp_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='exposure_nbr']" position="after">
+                    <field name="equipment_ids" widget="many2many_tags" optional="show"/>
+                </xpath>
+            </field>
+        </record>
+
 </odoo>
