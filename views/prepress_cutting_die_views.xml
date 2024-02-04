@@ -8,7 +8,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//div[@name='creasing_rule']" position="after">
                     <field name="equipment_ids" widget="many2many_tags" options="{'no_create_edit': True}"
-                    attrs="{'readonly':['|',('locked','=',True),('state','=','cancel')]}"/>
+                    attrs="{'readonly':['|','&amp;',('locked','=',True),('state','!=','draft'),('state','=','cancel')]}"/>
                 </xpath>
             </field>
         </record>
